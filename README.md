@@ -1,8 +1,10 @@
 # Fan control for TerraMaster on Linux
 
-Tested with F4-424 Pro. This is a direct port of the Xpenology fancontrol script by Eudean to work on OMV/Debian.
+Tested with F4-424 Max under Proxmox VE 9. This is a fork of [@Nikotine1's conversion to the F4-424 Pro](Nikotine1/terramaster-fancontrol-IT8613E), which was in turn a direct port of the [Xpenology fancontrol script by Eudean](https://xpenology.com/forum/topic/14007-terramaster-f4-220-fan-control/?ct=1559481439) to work on OMV/Debian and tested on the Pro model.
 
-Original author: https://xpenology.com/forum/topic/14007-terramaster-f4-220-fan-control/?ct=1559481439
+I intend to make a few changes to this as time progresses.
+
+## Original README follows:
 
 This fork implements changes for it to work with NAS devices containing the IT8613E chipset, while the original program only supported IT8772E (used in the F4-220).
 Initially I made the changes described in [this post](https://xpenology.com/forum/topic/14007-terramaster-f4-220-fan-control/?do=findComment&comment=264172), but in the end I just commented out the part that was specific for the IT8772E.
